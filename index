@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    .parent {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    }
+
+    .div1 { grid-area: 1 / 1 / 2 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 5; }
+    .div3 { grid-area: 1 / 5 / 3 / 6; }
+    .div4 { grid-area: 2 / 1 / 3 / 2; }
+    .div5 { grid-area: 2 / 2 / 3 / 5; }
+  </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="div1"> 
+      <img width="324px" height="210px" src="https://res.cloudinary.com/dddvuoz7c/image/upload/v1698783918/Site-Poderosa/GRID/wella_f1gwql.png">
+    </div>
+    <div class="div2">
+      <img width="732px" height="222px" src="https://res.cloudinary.com/dddvuoz7c/image/upload/v1698783905/Site-Poderosa/GRID/1_ubwv7w.png">
+    </div>
+    <div class="div3">
+      <img width="224x" height="470px" src="https://res.cloudinary.com/dddvuoz7c/image/upload/v1698783931/Site-Poderosa/GRID/Shampoo_e_Condicionador_Enrich_-_Wella_2_truem7.png">
+    </div>
+    <div class="div4">
+      <img width="324x" height="210px" src="https://res.cloudinary.com/dddvuoz7c/image/upload/v1698783914/Site-Poderosa/GRID/wella2_yuaf9c.png">
+    </div>
+    <div class="div5">
+      <img width="732x" height="222px" src="https://res.cloudinary.com/dddvuoz7c/image/upload/v1698784099/Site-Poderosa/GRID/2_ozu7xd.png">
+    </div>
+  </div>
+
+
+</body>
+</html>
